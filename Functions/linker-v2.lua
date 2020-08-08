@@ -42,7 +42,7 @@ local function Scan(id, url, printAll)
                 rconsolewarn("Scanned IDs: " .. modulesScanned) -- number of linkers the bot went through
                 setclipboard("https://roblox.com/library/" .. previd)
             else
-                if previd == 4966675758 then previd = 4966675758 .. " - T0PK3K (shitkek) Module" end -- funny easter egg, fuck topkek
+                if previd == 4966675758 then local previd = 4966675758 .. " - T0PK3K (shitkek) Module" end -- funny easter egg, fuck topkek
                 
                 rconsolewarn("Final ID: " .. previd)
                 rconsolewarn("Copied asset ID to clipboard!")
